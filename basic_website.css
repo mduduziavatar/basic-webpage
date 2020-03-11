@@ -1,1 +1,88 @@
-css
+table,
+    th,
+    td {
+        border: 1px solid;
+        zoom: 1;
+    }
+.header {
+    display: flex;
+    text-align: center;
+}
+
+.tablemoun {
+    width: 50%;
+}
+
+.places {
+    display: flex;
+}
+
+.place-1 {
+    flex: 1;
+    display: flex;
+    padding: 1em;
+}
+
+.place-2 {
+    flex: 1;
+    display: flex;
+    padding: 1em;
+}
+
+.place-3 {
+    flex: 1;
+    display: flex;
+    padding: 1em;
+}
+
+
+.side-bar {
+    display: flex;
+    padding: 1em;
+
+}
+.text {
+        padding: 1em;
+    }
+
+
+@media(max-width:800px) {
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+        zoom: 1.2;
+    }
+
+    .side-bar {
+        display: flex;
+        padding: 1em;
+    }
+
+    .text {
+        padding: 1em;
+    }
+
+    .places {
+        flex-direction: column;
+    }
+
+    .place-1 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+    .place-2 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+.place-3 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+}    
