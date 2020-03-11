@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basic_website.css">
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid;
+        zoom: 1;
+    }
+
+    .header {
+        display: flex;
+        text-align: center;
+    }
+
+    .tablemoun {
+        width: 50%;
+    }
+
+    .places {
+        display: flex;
+    }
+
+    .place-1 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+    .place-2 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+    .place-3 {
+        flex: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+
+    .side-bar {
+        display: flex;
+        padding: 1em;
+
+    }
+    .text {
+            padding: 1em;
+        }
+
+
+    @media(max-width:800px) {
+
+        table,
+        th,
+        td {
+            border: 1px solid;
+            zoom: 1.2;
+        }
+
+        .side-bar {
+            display: flex;
+            padding: 1em;
+        }
+
+        .text {
+            padding: 1em;
+        }
+
+        .places {
+            flex-direction: column;
+        }
+
+        .place-1 {
+            flex: 1;
+            display: flex;
+            padding: 1em;
+        }
+
+        .place-2 {
+            flex: 1;
+            display: flex;
+            padding: 1em;
+        }
+    
+        .place-3 {
+            flex: 1;
+            display: flex;
+            padding: 1em;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="tablemoun">
+                <h1>Siphiwe </h1>
+                <h1> Malinga</h1>
+            </div>
+            <div class="tablemountain">
+                <img src="Webpgp.jpg">
+            </div>
+        </div>
+        <h2>The city I would love to visit</h2>
+        <div class="side-bar">
+            <img src="Webpn.jpg" height="400px" width="50%"> 
+            <div class="text">
+                <h3><u>Tokyo Japan</u></h2>
+                    <p>Tokyo Japan is a city of flashing neon lights, super-advanced gadgetry, which is one of the most
+                        populated cities in the world but filled with great minds in technology. One of my best dreams
+                        is to find myself on top of a mountain with nothing other than peace and tranquillity
+                        surrounding me. It may be far to travel to but I am pretty sure it’s got a whole lot to offer.
+                        Maybe if I still have the stomach for it, ill even try their fast foods that we most South
+                        Africans are so fearful of.
+                    </p>
+            </div>
+        </div>
+        <h2>A foreign language I would like to learn</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>English</th>
+                    <th>Espanol</th>
+                </tr>
+                <tr>
+                    <td>let's go</td>
+                    <td>vamonos</td>
+                </tr>
+                <tr>
+                    <td>Today I am going to Paris</td>
+                    <td>Hoy voy a paris</td>
+                </tr>
+                <tr>
+                    <td>Baby please dont leave me</td>
+                    <td>Bebé por favor no me dejes</td>
+                </tr>
+                <tr>
+                    <td>Italy has the second biggest infections of corona virus</td>
+                    <td>Italia tiene la segunda infección más grande del virus corona</td>
+                </tr>
+                <tr>
+                    <td>Can you please help</td>
+                    <td>
+                        ¿Puedes ayudar por favor?</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h2>Historic places in Cape Town</h2>
+    <div class="places">
+
+        <div class="place-1">
+            <div>
+                <h2>Castle of good hope</h2>
+                <li>
+                    Built between 1666 and 1679 by the Dutch East India Company.
+                </li>
+                <li>
+                    It's also the oldest existing colonial building in South Africa.
+                </li>
+                <li>
+                    Its predecessor was Fort de Goede Hoop which was built from clay.
+                </li>
+            </div>
+            <img src="Webpg.jpg" height="220px" width=50%>
+        </div>
+
+        <div class="place-2">
+            <div>
+                <h2>Long Street</h2>
+                <li>
+                    Filled a great number of youth hostels for all international guests
+                </li>
+                <li>
+                    The vibe. Above all, Whether exploring by day or night its always fascinating.
+                </li>
+                <li>
+                    The nightlife. best bar hopping and nice people who keep you entertained.
+                </li>
+            </div>
+            <img src="Webp.jpg" height="220px" width=50%>
+        </div>
+
+
+        <div class="place-3">
+            <div>
+                <h2>City Hall</h2>
+                <ul>
+                    <li>
+                        The first place from where Nelson Mandela spoke after release from prison in 1990.
+                    </li>
+                    <li>
+                        The Hall itself is made up of components from all over the world.
+                    </li>
+                    <li>
+                        Built in 1905, makes it one the oldest buildings in South Africa.
+                    </li>
+                </ul>
+            </div>
+            <img src="Webpng.jpg" height="220px" width=50%>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <h5>Designed by Siphiwe</h5>
+    </div>
+
+
+</body>
+
+</html>
