@@ -52,6 +52,11 @@ h6 {
   font-size: 0.875rem;
 }
 
+table,th,td {
+        border: 1px solid;
+        zoom: 1;
+      }
+
 p {
   font-size: 1.125rem;
   font-weight: 200;
@@ -78,6 +83,28 @@ p {
 
 .right {
   text-align: right;
+}
+
+.tokyo {
+  float: left;
+}
+
+.tablemountain {
+  float: right;
+}
+
+.img3 {
+  float: right;
+  padding: 1em;
+  margin: 1em;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.cityhall {
+  float: right;
 }
 
 .center {
