@@ -18,33 +18,63 @@ table,
 }
 
 .place-1 {
-    flex: 1;
-    display: flex;
+    float: right;
     padding: 1em;
+    margin: 1em;
 }
 
 .place-2 {
-    flex: 1;
-    display: flex;
+    float: right;
     padding: 1em;
+    margin: 1em;
 }
 
 .place-3 {
-    flex: 1;
-    display: flex;
+    float: right;
     padding: 1em;
+    margin: 1em;
 }
 
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.img {
+    float: left;
+    padding: 1em;
+    margin: 1em ;
+}  
 
 .side-bar {
-    display: flex;
+    float: left;
+    text-align: right;
     padding: 1em;
-
 }
-.text {
-        padding: 1em;
-    }
 
+.text {
+    text-align: left;
+    padding: 1em;
+    margin: 1em;
+    }
+  
+.img1 {
+    float: right;
+    padding: 1em;
+    margin: 1em;
+}    
+
+.img2 {
+    float: right;
+    padding: 1em;
+    margin: 1em;
+}
+
+.img3 {
+    float: right;
+    padding: 1em;
+    margin: 1em;
+}
 
 @media(max-width:800px) {
 
@@ -55,34 +85,66 @@ table,
         zoom: 1.2;
     }
 
-    .side-bar {
-        display: flex;
-        padding: 1em;
+    .clearfix {
+        overflow: auto;
+        zoom: 1;
     }
 
-    .text {
-        padding: 1em;
+    .img {
+        float: left;
+        /* padding: 1em;
+        margin: 1em ; */
     }
+
+    .side-bar {
+        float: left;
+        text-align: right;
+        /* padding: 1em; */
+    }
+    
+    .text {
+        text-align: left;
+        /* padding: 1em;
+        margin: 1em; */
+        }
 
     .places {
         flex-direction: column;
     }
 
     .place-1 {
-        flex: 1;
-        display: flex;
+        float: right;
         padding: 1em;
+        margin: 1em;
     }
 
     .place-2 {
-        flex: 1;
-        display: flex;
+        float: right;
         padding: 1em;
+        margin: 1em;
     }
 
-.place-3 {
-        flex: 1;
-        display: flex;
+    .place-3 {
+        float: right;
         padding: 1em;
+        margin: 1em;
+    }
+
+    .img1 {
+        float: right;
+        padding: 1em;
+        margin: 1em;
+    }    
+    
+    .img2 {
+        float: left;
+        padding: 1em;
+        margin: 1em;
+    }
+    
+    .img3 {
+        float: right;
+        padding: 1em;
+        margin: 1em;
     }
 }    
