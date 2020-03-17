@@ -11,11 +11,12 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 1.5em;
+  padding: 1em;
   left: 0;
   top: 0;
   font-size: 100%;
+  background: cyan;
 }
 
 /* ROOT FONT STYLES */
@@ -87,22 +88,25 @@ p {
 
 .tokyo {
   float: left;
+  padding: 1em;
 }
 
-.tablemountain {
+.img {
+  float: right;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
   float: right;
 }
 
 .img3 {
   float: right;
-  padding: 1em;
-  margin: 1em;
 }
 
-.clearfix {
-  overflow: auto;
-  zoom: 1;
-}
 .cityhall {
   float: right;
 }
