@@ -11,8 +11,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 1.5em;
-  padding: 1em;
+  margin: 0;
+  padding: 0;
   left: 0;
   top: 0;
   font-size: 100%;
@@ -91,13 +91,17 @@ p {
   padding: 1em;
 }
 
+.heading {
+  display: flex;
+}
+
 .img {
   float: right;
 }
 
-.img1 {
+/* .img1 {
   float: right;
-}
+} */
 
 .img2 {
   float: right;
@@ -125,8 +129,8 @@ p {
 
 .container {
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .row {
